@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4: Posiciones en CSS</title>
+    <link rel="stylesheet" href="../CSS/ej04.css">
+    <link rel="shortcut icon" href="../../RECURSO/OTROS/number-4.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>FSB1_152 Taller 04 - CSS</h1>
+        <h2>Ejercicio 4: Posiciones en CSS</h2>
+    </header>
+    <main>
+        <section>
+            <h2>Diferentes posiciones en CSS</h2>
+            <div class="posicion">
+                <b>position: static</b><br>
+                Este div tiene posición estática. Es el valor por defecto y se posiciona según el flujo normal del documento. No se pueden usar top, right, bottom o left.
+            </div>
+            <div class="posicion relative">
+                <b>position: relative</b><br>
+                Este div tiene posición relativa. Se posiciona respecto a su posición original y puede moverse usando top, right, bottom o left.
+            </div>
+            <div class="posicion absolute">
+                <b>position: absolute</b><br>
+                Este div tiene posición absoluta. Se posiciona respecto al ancestro posicionado más cercano o al body si no hay ninguno.
+            </div>
+            <div class="posicion fixed">
+                <b>position: fixed</b><br>
+                Este div tiene posición fija. Permanece en la misma posición respecto a la ventana del navegador, incluso al hacer scroll.
+            </div>
+            <div class="posicion sticky">
+                <b>position: sticky</b><br>
+                Este div tiene posición sticky. Se comporta como relativa hasta que se alcanza un punto de desplazamiento, luego se comporta como fija.
+            </div>
+        </section>
+    </main>
+</body>
+</html>
